@@ -1,0 +1,37 @@
+.Header {
+    background-color: rgb(99, 55, 95);
+    height: 70px;
+    color: #ffffff;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 0vh 20px;
+  }
+  
+  .quizImg {
+    height: 50px;
+    display: flex;
+    align-items: center;
+    border-radius: 100%;
+    align-self: center;
+  }
+  
+  .iconDiv {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+  }
+  
+  .heading {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+    color: rgb(44, 215, 228);
+    margin-left: 10px;
+  }
+  
+  .score {
+    font-size: 20px;
+    color: aqua;
+    font-weight: bold;
+  }

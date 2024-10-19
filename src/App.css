@@ -1,0 +1,51 @@
+* {
+  box-sizing: border-box;
+  font-family: 'roboto';
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.mainDiv {
+  height: 100vh;
+  width: 100vw;
+  background-color: rgb(240, 243, 238);
+}
+
+.completedDiv {
+  display: flex;
+  height: 100vh;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 70px;
+  background-color: white;
+  box-shadow: inset 1px 1px 80px rgb(238, 177, 177);
+}
+
+.oogyPic {
+  height: 250px;
+}
+
+.scored {
+  font-size: 20px;
+  font-weight: 800;
+  text-shadow: 0px 0px 4px rgb(149, 218, 164);
+}
+
+.appreciate {
+  font-size: 28px;
+  color: rgb(218, 44, 209);
+  font-weight: 800;
+  text-shadow: 0px 0px 4px rgb(102, 179, 119);
+}
+
+.retry {
+  background-color: blue;
+  color: white;
+}
