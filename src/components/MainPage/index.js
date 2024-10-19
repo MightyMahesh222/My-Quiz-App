@@ -7,7 +7,7 @@ const MainPage = props => {
   const {oneBit, settingIndex, settingScore, score} = props
   const {question, options, answer, id} = oneBit
   const [select, setSelect] = useState([])
-  const [isTrue, setIsTrue] = useState('')
+  const [isTrue, setIsTrue] = useState(false)
   const [disable, setDisable] = useState(false)
   const [disNxt, setDisNxt] = useState(true)
   const [submit, setSubmit] = useState(false)
@@ -88,6 +88,9 @@ const MainPage = props => {
             NEXT
           </button>
         </div>
+       {(btnDisable)? 
+        (isTrue)? <p className='true'>+5</p>: <p className='false'>-1</p> : ''
+       }
       </div>
     </div>
   )
